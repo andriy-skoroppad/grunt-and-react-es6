@@ -1,0 +1,20 @@
+//Старт з обновлення npm (sudo для лінукс)
+
+npm update -g npm
+npm install -g grunt-cli
+
+npm init
+
+npm install grunt --save-dev
+
+// add Gruntfile.js
+
+npm install --save-dev grunt-babel
+
+npm install --save-dev load-grunt-tasks
+npm install babel-preset-es2015 --save-dev
+npm install --save-dev babel-preset-react
+
+npm install grunt-browserify --save-dev
+
+npm install --save react react-dom
